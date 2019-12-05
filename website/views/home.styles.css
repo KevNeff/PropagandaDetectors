@@ -1,0 +1,48 @@
+body {
+    background-image: url("paper_splash.jpg");
+    background-color: #cccccc;
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 20px;
+    font-size: 30px;
+    border: 2px solid grey;
+    float: center;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: center;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+}
+h1   {color: #ba2a20;
+    font-family: Arial;
+    font-size: 30px;
+    text-align:center}
+p    {color: #ba2a20;
+    font-family: Arial;
+    font-size: 30px;
+    text-align:center}
+    }

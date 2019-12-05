@@ -1,0 +1,14 @@
+extends default
+
+block header
+    header.header
+        h1 Wondering if something might be propaganda?
+
+
+block content
+    form(method='POST' action='/result')
+        div.form-group
+            input#weblink.form-control(type='text', name='weblink' size='30', placeholder='Enter a link to a news article...')
+            button.btn.btn-primary(type='submit') Submit
+
+

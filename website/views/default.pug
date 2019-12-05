@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/css/font-awesome.css')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    block head
+  body
+    main
+      block header
+        header.header
+      block content
+
+      block results

@@ -1,0 +1,13 @@
+extends default
+block head
+    script.
+           var weblink= #{weblink}
+           var prediction= #{prediction}
+block header
+    header.header
+        h1 Propaganda Detection Result:
+
+block results
+    results.webcontrol
+        p Source: #{weblink}
+        p Found Texts: #{prediction}
