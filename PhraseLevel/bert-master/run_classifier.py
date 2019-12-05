@@ -2,7 +2,7 @@
 #
 #*****NOTICE*****
 #This is a modified version of run_classifier.py to fix a bug with predicting on multi-class datasets. 
-#This fix is only extended to the CodaProcesser and this dataset.  
+#This fix is only extended to the ColaProcesser and this dataset.  
 #This is intentional and allows easy comparison to extend to your own processor or dataset. 
 #
 #
