@@ -1,4 +1,4 @@
-extends default
+extends index
 block head
     script.
            var weblink= #{weblink}
@@ -9,5 +9,12 @@ block header
 
 block results
     results.webcontrol
-        p Source: #{weblink}
-        p Found Texts: #{prediction}
+        table.table
+                tr
+                    th Source
+                tr
+                    td #{weblink}
+                tr
+                    th Found Texts:
+                tr
+                    td #{prediction}
