@@ -2,6 +2,7 @@ import sys
 from sklearn.feature_extraction.text import TfidfVectorizer,CountVectorizer,TfidfTransformer
 
 def url_miner():
+    import re
     from newspaper import Article
     try:
         article = Article(sys.argv[1])
@@ -11,8 +12,18 @@ def url_miner():
         print('Invalid URL')
         sys.stdout.flush()
         exit()
-    article = article.text.split('\n')
-    return article
+    text = article.text.split('\n')
+    corpus = []
+    regex = re.compile('[\"#$%&\\\'()*+,-./:;<=>?@[\\]^_`{|}~\t\n\r\x0b\x0c]')
+    for line in text:
+        if line != '':
+            corpus.append(regex.sub('', line))
+
+    if len(corpus) == 0:
+        print('URL has no text')
+        sys.stdout.flush()
+        exit()
+    return corpus
 
 def modelLoader():
     import pickle
@@ -23,10 +34,14 @@ def modelLoader():
 
 def inject_to_server(predictions, corpus):
     count = 0
+    hasP = False
     for prediction in predictions:
         if prediction == 'propaganda':
             print(corpus[count] + '\n')
+            hasP = True
         count += 1
+    if hasP == False:
+        print('No Propaganda')
     sys.stdout.flush()
     exit()
 
@@ -37,5 +52,7 @@ def Main():
     predictions = model.predict(samples)
     inject_to_server(predictions, corpus)
 
+    print('Failed')
+    sys.stdout.flush()
 if __name__ == "__main__":
     Main()
