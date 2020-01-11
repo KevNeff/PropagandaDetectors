@@ -6,7 +6,7 @@ A lot of importance is placed on detecting fake-news in present times. As seen i
 With the rise in social media, these propagandistic articles reach millions of people in a short time. As propagandistic content try to bias our thoughts, it is very difficult to identify their presence.
 The aim of this project is to detect propaganda in news articles with focus on the impact, rather than factual correctness. We classify documents and sentences as propagandistic or not and identify the propaganda technique used at a phrase level.
 
-<img src="https://github.com/KevNeff/PropagandaDetectors/blob/master/README_images/1.png" alt="alt text" width="400">
+<img src="https://github.com/KevNeff/PropagandaDetectors/blob/master/README_images/1.png" alt="[5]" width="400">
 
 
 ## Dataset
