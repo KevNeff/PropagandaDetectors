@@ -111,7 +111,7 @@ During the course of the project, we faced several challenges and some of them a
 
 [4] [QCRI: Propaganda Technique Definitions](https://propaganda.qcri.org/annotations/definitions.html)
 
-[5] https://www.reckontalk.com/how-media-gives-a-false-idea-of-the-truth/
+[5] [13 Photos Demonstrate How Media Gives A False Idea Of The Truth](https://www.reckontalk.com/how-media-gives-a-false-idea-of-the-truth/)
 
 ## Team Members
 [Kevin McNeff](https://github.com/KevNeff/)
