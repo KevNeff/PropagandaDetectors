@@ -2,7 +2,7 @@
  
 
 ## Introduction
-A lot of importance is placed on detecting fake-news in present times. As seen in the venn diagram[1] on the left, not all fake news impact us. So as to create news that cause impact, journalists use psychological and rhetorical techniques called propaganda. Propaganda is a technique, especially of a biased or misleading nature, used to promote or publicize a particular political cause or point of view. Looking at the picture on the left[5], we realize that even true images if published with malicious intent can cause damaging effects.
+A lot of importance is placed on detecting fake-news in present times. As seen in the venn diagram[1], not all fake news impact us. So as to create news that cause impact, journalists use psychological and rhetorical techniques called propaganda. Propaganda is a technique, especially of a biased or misleading nature, used to promote or publicize a particular political cause or point of view. Looking at the picture on the left[5], we realize that even true images if published with malicious intent can cause damaging effects.
 With the rise in social media, these propagandistic articles reach millions of people in a short time. As propagandistic content try to bias our thoughts, it is very difficult to identify their presence.
 The aim of this project is to detect propaganda in news articles with focus on the impact, rather than factual correctness. We classify documents and sentences as propagandistic or not and identify the propaganda technique used at a phrase level.
 
